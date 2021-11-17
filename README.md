@@ -1,1 +1,1 @@
-# 25Nov
+# React starter kit

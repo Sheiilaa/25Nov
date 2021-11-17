@@ -1,0 +1,17 @@
+@import "core/variables";
+@import "core/reset";
+.title_article {
+  font-family: $font-title;
+  color: $color-title2;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.container_article {
+  font-family: $font-text;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.img_article {
+  width: 80vw;
+  height: 13vh;
+}
