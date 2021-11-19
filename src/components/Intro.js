@@ -1,4 +1,4 @@
-import "../styles/intro.scss";
+import "../styles/Article.scss";
 import tableImg from "../images/estadistica.jpg";
 const Intro = () => {
   return (
