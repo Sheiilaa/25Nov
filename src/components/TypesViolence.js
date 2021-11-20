@@ -1,12 +1,24 @@
 import "../styles/Article.scss";
-const TypesViolence = () => {
+import iceberg from "../images/Iceberg.jpeg";
+const TypesViolence = (props) => {
+  const handleClick = (ev) => {
+    ev.preventDefault();
+    props.handleCollapsable(ev.currentTarget.id);
+  };
   return (
     <>
       <article>
         <h2 className="title_article">¿Que tipos de violencia hay?</h2>
+        <img src={iceberg} alt="iceberg" className="img_iceberg" />
         <section>
-          <h3 className="title_article_2">Violencia psicológica</h3>
-          <div className="container_article">
+          <h3
+            className="title_article_2"
+            id="collapsable1"
+            onClick={handleClick}
+          >
+            Violencia psicológica
+          </h3>
+          <div className={`container_article ${props.collapsable1}`}>
             <p>
               Se le llama violencia psicológica a toda agresión realizada sin la
               intervención del contacto físico entre las personas.
@@ -41,8 +53,109 @@ const TypesViolence = () => {
           </div>
         </section>
         <section>
-          <h3 className="title_article_2">Violencia sexual</h3>
-          <div className="container_article">
+          <h3
+            id="collapsable2"
+            className="title_article_2"
+            onClick={handleClick}
+          >
+            Violencia económica y patrimonial
+          </h3>
+          <div className={`container_article ${props.collapsable2}`}>
+            <p>
+              Se llama violación económica a aquella que se basa en la reducción
+              y privación de recursos económicos a la pareja o su prole como
+              medida de coacción, manipulación o con la intención de dañar su
+              integridad.
+            </p>
+            <p>
+              Se llama violencia patrimonial la usurpación o destrucción de
+              objetos, bienes y propiedades de la persona víctima de violencia
+              con intención de dominarla o producirle un daño psicológico.
+            </p>
+            <p>
+              <h4 className="title_example">Algunos ejemplos son:</h4>
+              <ul className="list_article">
+                <li>Romper, robar, retener los objetos de la victima.</li>
+                <li>No dejar que la victima se compre cosas.</li>
+                <li>
+                  Hacer que la pareja trabaje en el negocio familiar sin ninguna
+                  remuneración.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3
+            id="collapsable3"
+            className="title_article_2"
+            onClick={handleClick}
+          >
+            Violencia social
+          </h3>
+          <div className={`container_article ${props.collapsable3}`}>
+            <p>
+              Se llama violación social a aquella que se basa en la limitación,
+              control y la inducción al aislamiento social de la persona. Se
+              separa a la víctima de familia y amigos, privándola de apoyo
+              social y alejándola de su entorno habitual.
+            </p>
+            <p>
+              En ocasiones se pone a la víctima en contra de su entorno, lo cual
+              provoca una desvinculación de este.
+            </p>
+            <p>
+              <h4 className="title_example">Algunos ejemplos son:</h4>
+              <ul className="list_article">
+                <li>
+                  No dejar que quedes con tus amig@s o que veas a tu familia
+                </li>
+                <li>
+                  Hacer que discutas con tu entorno por defender al agresor
+                </li>
+              </ul>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3
+            id="collapsable4"
+            className="title_article_2"
+            onClick={handleClick}
+          >
+            Violencia vicaria
+          </h3>
+          <div className={`container_article ${props.collapsable4}`}>
+            <p>
+              Se llama violación vicaria a aquella que se basa en que el agresor
+              amenaza con agredir a los hijos con el proposito de dañar a su
+              pareja.
+            </p>
+            <p>
+              También incliye el daño causado a los menos por la observación de
+              los malos tratos entre los padres.
+            </p>
+            <p>
+              <h4 className="title_example">Algunos ejemplos son:</h4>
+              <ul className="list_article">
+                <li>Insultar o agredir a los hijos.</li>
+                <li>
+                  En el peor de los casos el agresor mata a sus hijos para poder
+                  ocacionar daño a la pareja.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3
+            id="collapsable5"
+            className="title_article_2"
+            onClick={handleClick}
+          >
+            Violencia sexual
+          </h3>
+          <div className={`container_article ${props.collapsable5}`}>
             <p>
               Se llama violación sexual cuándo se experimentan relaciones
               sexuales forzosas sin consentimiento de la persona o con su
@@ -77,8 +190,14 @@ const TypesViolence = () => {
           </div>
         </section>
         <section>
-          <h3 className="title_article_2">Violencia física</h3>
-          <div className="container_article">
+          <h3
+            id="collapsable6"
+            className="title_article_2"
+            onClick={handleClick}
+          >
+            Violencia física
+          </h3>
+          <div className={`container_article ${props.collapsable6}`}>
             <p>
               Esta es la mas visible y reconocida, se llama violencia fisica a
               todo aquel acto en que se inflige daño fisico a la victima, a

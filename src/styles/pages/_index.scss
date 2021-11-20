@@ -9,3 +9,8 @@ body {
   padding-left: 10vw;
   padding-top: 3vh;
 }
+.hidden {
+  height: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+}

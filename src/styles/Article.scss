@@ -10,7 +10,7 @@
 .container_article {
   font-family: $font-text;
   font-size: 16px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 .img_article {
   width: 80vw;
@@ -26,4 +26,8 @@
 }
 .list_article {
   margin-left: 10px;
+}
+.img_iceberg {
+  width: 80vw;
+  height: 25vh;
 }

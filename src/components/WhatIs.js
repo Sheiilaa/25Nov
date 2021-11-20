@@ -2,7 +2,7 @@ import "../styles/Article.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 import TypesViolence from "./TypesViolence";
-const WhatIs = () => {
+const WhatIs = (props) => {
   return (
     <>
       <article>
@@ -25,7 +25,15 @@ const WhatIs = () => {
           </p>
         </div>
       </article>
-      <TypesViolence />
+      <TypesViolence
+        handleCollapsable={props.handleCollapsable}
+        collapsable1={props.collapsable1}
+        collapsable2={props.collapsable2}
+        collapsable3={props.collapsable3}
+        collapsable4={props.collapsable4}
+        collapsable5={props.collapsable5}
+        collapsable6={props.collapsable6}
+      />
     </>
   );
 };
