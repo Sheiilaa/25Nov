@@ -1,5 +1,5 @@
 import "../styles/Article.scss";
-import iceberg from "../images/Iceberg.jpeg";
+
 const TypesViolence = (props) => {
   const handleClick = (ev) => {
     ev.preventDefault();
@@ -9,7 +9,7 @@ const TypesViolence = (props) => {
     <>
       <article>
         <h2 className="title_article">¿Que tipos de violencia hay?</h2>
-        <img src={iceberg} alt="iceberg" className="img_iceberg" />
+
         <section>
           <h3
             className="title_article_2"

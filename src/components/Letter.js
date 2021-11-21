@@ -5,12 +5,11 @@ const Letter = () => {
     <article>
       <h2 className="title_article">No estas sola</h2>
       <div className="container_article">
-        {" "}
         <p>
           Desde pequeñas nos prometieron que el amor era lo más grande que podía
           existir. Que vendría un principe azul a protegernos de los monstruos,
           pero nadie nos advirtió que a veces los principes llevan un monstruo
-          dentro.{" "}
+          dentro.
         </p>
         <p>
           Y vosotras os preguntaréis que cómo puede ocurrir esto, como aquel

@@ -9,6 +9,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Domestic from "./Domestic";
 import Letter from "./Letter";
+import Questions from "./Questions";
 function App() {
   //Para los collapsables
   const [collapsable1, setCollapsable1] = useState("hidden");
@@ -66,20 +67,28 @@ function App() {
   };
   return (
     <div className="pages">
-      <Header />
-      <main className="main">
-        <Intro />
-        <WhatIs
-          handleCollapsable={handleCollapsable}
-          collapsable1={collapsable1}
-          collapsable2={collapsable2}
-          collapsable3={collapsable3}
-          collapsable4={collapsable4}
-          collapsable5={collapsable5}
-          collapsable6={collapsable6}
-        />
-        <Letter />
-      </main>
+      <Switch>
+        <Route path="/src/components/Questions.js">
+          <Questions />
+        </Route>
+        <Route exact path="/">
+          <Header />
+          <main className="main">
+            <Intro />
+            <WhatIs
+              handleCollapsable={handleCollapsable}
+              collapsable1={collapsable1}
+              collapsable2={collapsable2}
+              collapsable3={collapsable3}
+              collapsable4={collapsable4}
+              collapsable5={collapsable5}
+              collapsable6={collapsable6}
+            />
+            <Letter />
+            <Questions />
+          </main>
+        </Route>
+      </Switch>
     </div>
   );
 }

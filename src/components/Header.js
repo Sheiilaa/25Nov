@@ -12,10 +12,10 @@ const Header = () => {
           ¿QUE ES?
         </a>
         <a href="" className="list">
-          CARTA
+          NO ESTAS SOLA
         </a>
         <a href="" className="list">
-          NO ESTAS SOLA
+          POR SI LO NECESITAS
         </a>
       </nav>
     </header>
