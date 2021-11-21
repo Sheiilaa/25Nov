@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/Article.scss";
+// import React from "react";
+// import { useForm, ValidationError } from "@formspree/react";
 
 const Questions = () => {
+  //   const [state, handleSubmit] = useForm("myylrqvn");
+  //   if (state.succeeded) {
+  //     return <p>Enviado</p>;
+  //   }
   // if(props.character=== undefined){
   //     return(
   //         <section>
@@ -43,14 +49,27 @@ const Questions = () => {
           <spam className="spam"> El número es 016</spam>
         </div>
         <section>
-          <form action="https://formspree.io/f/myylrqvn" method="POST">
+          <form method="POST">
+            {" "}
+            {/*Deberia estar en el form onSubmit={handleSubmit}*/}
             <textarea
               class="input_mesagge"
               name="message"
               placeholder="Tu mensaje..."
               required
             ></textarea>
-            <button class="button-submit">Enviar</button>
+            {/* <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            /> */}
+            <button
+              class="button-submit"
+              type="submit"
+              //   disabled={state.submitting}
+            >
+              Enviar
+            </button>
           </form>
         </section>
       </article>
