@@ -43,7 +43,7 @@ const Questions = () => {
           <spam className="spam"> El número es 016</spam>
         </div>
         <section>
-          <form action="" method="POST">
+          <form action="https://formspree.io/f/myylrqvn" method="POST">
             <textarea
               class="input_mesagge"
               name="message"
