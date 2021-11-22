@@ -1,6 +1,15 @@
+import { Link } from "react-router-dom";
+import "../styles/Article.scss";
+import "../styles/App.scss";
+import React from "react";
 function Domestic() {
   return (
-    <article>
+    <article className="main">
+      <Link to="/">
+        <div className="container">
+          <p className="back">Volver atrás</p>
+        </div>
+      </Link>
       <h2 className="title_article">¿Que es la violencia doméstica?</h2>
       <div className="container_article">
         La violencia doméstica o violencia intrafamiliar es un concepto

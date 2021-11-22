@@ -71,6 +71,9 @@ function App() {
         <Route path="/src/components/Questions.js">
           <Questions />
         </Route>
+        <Route path="/src/components/Domestic.js">
+          <Domestic />
+        </Route>
         <Route exact path="/">
           <Header />
           <main className="main">
@@ -85,8 +88,13 @@ function App() {
               collapsable6={collapsable6}
             />
             <Letter />
-            <Questions />
           </main>
+        </Route>
+        <Route path="/questions">
+          <Questions />
+        </Route>
+        <Route path="/domestic">
+          <Domestic />
         </Route>
       </Switch>
     </div>

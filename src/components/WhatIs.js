@@ -6,7 +6,7 @@ import iceberg from "../images/Iceberg.jpeg";
 const WhatIs = (props) => {
   return (
     <>
-      <article>
+      <article id="WhatIs">
         <h2 className="title_article"> ¿Qué es la violencia de género?</h2>
         <div className="container_violence">
           <div className="container_article">
