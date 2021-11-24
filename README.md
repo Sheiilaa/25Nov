@@ -1,6 +1,6 @@
 # No estas sola ♀️
 
-Con motivo del **25 de noviembre (día de la violencia de género)** he querido realizar esta pequeña página web, con ella espero poder ayudar a mucha gente a salir de ese infierno, y sobretodo que puedan ver que **no están solas**.
+Con motivo del **25 del noviembre (día de la violencia de género)** he querido realizar esta pequeña página web, con ella espero poder ayudar a mucha gente a salir de ese infierno, y sobretodo que puedan ver que **no están solas**.
 
 La página cuenta de varias partes:
 
