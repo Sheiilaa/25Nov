@@ -1,5 +1,4 @@
 import "../styles/Article.scss";
-import { Link } from "react-scroll";
 
 const Letter = () => {
   return (
@@ -55,11 +54,6 @@ const Letter = () => {
           se puede salir y que no es necesario ningún principe para matar
           monstruos, porque nosotras podemos con ellos.
         </p>
-      </div>
-      <div>
-        <Link smooth={true} to="header" className="icon">
-          <i class="fad fa-arrow-up"></i>
-        </Link>
       </div>
     </article>
   );

@@ -89,13 +89,12 @@ function App() {
               collapsable6={collapsable6}
             />
             <Letter />
+            <Questions />
           </main>
 
           <Footer />
         </Route>
-        <Route path="/questions">
-          <Questions />
-        </Route>
+
         <Route path="/domestic">
           <Domestic />
         </Route>

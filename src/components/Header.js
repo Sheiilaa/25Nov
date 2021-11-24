@@ -20,16 +20,11 @@ const Header = () => {
           <Link smooth={true} to="letter" className="list">
             NO ESTÁS SOLA
           </Link>
-          <a href="/#/questions" className="list" target="_blank">
+          <Link smooth={true} to="questions" className="list">
             POR SI LO NECESITAS
-          </a>
+          </Link>
         </nav>
       </header>
-      <Switch>
-        <Route path="/questions">
-          <Questions />
-        </Route>
-      </Switch>
     </>
   );
 };
