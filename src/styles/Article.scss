@@ -31,10 +31,11 @@
   }
 }
 .img_article {
-  width: 80vw;
+  width: 70vw;
   height: 13vh;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5%;
   @media all and (min-width: 768px) {
     height: 35%;
   }
@@ -60,34 +61,34 @@
 .list_article {
   margin-left: 10px;
 }
+
 .img_iceberg {
-  width: 45vw;
-  height: 9%;
+  width: 30vw;
+  height: auto;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 10px;
-  @media all and (min-width: 500px) {
-    width: 35vw;
-    height: 5%;
-  }
+
   @media all and (min-width: 768px) {
     width: 20vw;
     height: 4%;
   }
-  @media all and (min-width: 1000px) {
-    width: 30vw;
-    height: 8%;
-  }
+
   @media all and (min-width: 1200px) {
-    margin-left: 10px;
-    height: 29vh;
-    width: 55vw;
+    margin-top: 15px;
+    margin-left: 35px;
+    height: auto;
+    width: 60%;
     margin-top: 10px;
   }
 }
 .container_violence {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 25px;
   @media all and (min-width: 1200px) {
     flex-direction: row;
   }
@@ -140,4 +141,27 @@
 .spam {
   color: $color-title;
   font-weight: 900;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: $color-title;
+  font-weight: 900;
+  border: 3px solid $color-title;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-left: 40%;
+  background-color: #a770b2;
+  text-align: center;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+  }
 }

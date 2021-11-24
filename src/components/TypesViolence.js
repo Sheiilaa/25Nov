@@ -8,7 +8,7 @@ const TypesViolence = (props) => {
   return (
     <>
       <article>
-        <h2 className="title_article">¿Que tipos de violencia hay?</h2>
+        <h2 className="title_article">¿Qué tipos de violencia hay?</h2>
 
         <section>
           <h3
@@ -35,19 +35,19 @@ const TypesViolence = (props) => {
               <h4 className="title_example">Algunos ejemplos son:</h4>
               <ul className="list_article">
                 <li>
-                  Coacción para que no puedas vestir como te gusta; Típica frase
-                  de "Mejor no te pongas eso que vas a hacer el ridiculo" o "¿No
-                  crees que llevas demasiado escote?"
+                  Coacción para que no puedas vestir como te gusta: "Mejor no te
+                  pongas eso que vas a hacer el ridículo" o "¿No crees que
+                  llevas demasiado escote?".
                 </li>
                 <li>
-                  No te permite tener vida fuera de la relación; Típica frase de
-                  "Te echo mucho de menos, en vez de quedar con tus amigas, ¿por
-                  que no te quedas conmigo?"
+                  No te permite tener vida fuera de la relación: "Te echo mucho
+                  de menos, en vez de quedar con tus amigas, ¿por qué no te
+                  quedas conmigo?".
                 </li>
                 <li>
-                  Ignorar tus sentimientos, cuando le dices como te sientes
+                  Ignorar tus sentimientos cuando le dices como te sientes.
                 </li>
-                <li>Generar una dependencía emocional hacia el individuo</li>
+                <li>Generar una dependencía emocional hacia el individuo.</li>
               </ul>
             </p>
           </div>
@@ -62,7 +62,7 @@ const TypesViolence = (props) => {
           </h3>
           <div className={`container_article ${props.collapsable2}`}>
             <p>
-              Se llama violación económica a aquella que se basa en la reducción
+              Se llama violencia económica a aquella que se basa en la reducción
               y privación de recursos económicos a la pareja o su prole como
               medida de coacción, manipulación o con la intención de dañar su
               integridad.
@@ -75,8 +75,8 @@ const TypesViolence = (props) => {
             <p>
               <h4 className="title_example">Algunos ejemplos son:</h4>
               <ul className="list_article">
-                <li>Romper, robar, retener los objetos de la victima.</li>
-                <li>No dejar que la victima se compre cosas.</li>
+                <li>Romper, robar, retener los objetos de la víctima.</li>
+                <li>No dejar que la víctima se compre cosas.</li>
                 <li>
                   Hacer que la pareja trabaje en el negocio familiar sin ninguna
                   remuneración.
@@ -95,7 +95,7 @@ const TypesViolence = (props) => {
           </h3>
           <div className={`container_article ${props.collapsable3}`}>
             <p>
-              Se llama violación social a aquella que se basa en la limitación,
+              Se llama violencia social a aquella que se basa en la limitación,
               control y la inducción al aislamiento social de la persona. Se
               separa a la víctima de familia y amigos, privándola de apoyo
               social y alejándola de su entorno habitual.
@@ -108,10 +108,10 @@ const TypesViolence = (props) => {
               <h4 className="title_example">Algunos ejemplos son:</h4>
               <ul className="list_article">
                 <li>
-                  No dejar que quedes con tus amig@s o que veas a tu familia
+                  No dejar que quedes con tus amig@s o que veas a tu familia.
                 </li>
                 <li>
-                  Hacer que discutas con tu entorno por defender al agresor
+                  Hacer que discutas con tu entorno por defender al agresor.
                 </li>
               </ul>
             </p>
@@ -127,12 +127,12 @@ const TypesViolence = (props) => {
           </h3>
           <div className={`container_article ${props.collapsable4}`}>
             <p>
-              Se llama violación vicaria a aquella que se basa en que el agresor
-              amenaza con agredir a los hijos con el proposito de dañar a su
+              Se llama violencia vicaria a aquella que se basa en que el agresor
+              amenaza con agredir a los hijos con el propósito de dañar a su
               pareja.
             </p>
             <p>
-              También incliye el daño causado a los menos por la observación de
+              También incluye el daño causado a los menos por la observación de
               los malos tratos entre los padres.
             </p>
             <p>
@@ -141,7 +141,7 @@ const TypesViolence = (props) => {
                 <li>Insultar o agredir a los hijos.</li>
                 <li>
                   En el peor de los casos el agresor mata a sus hijos para poder
-                  ocacionar daño a la pareja.
+                  ocasionar daño a la pareja.
                 </li>
               </ul>
             </p>
@@ -157,21 +157,21 @@ const TypesViolence = (props) => {
           </h3>
           <div className={`container_article ${props.collapsable5}`}>
             <p>
-              Se llama violación sexual cuándo se experimentan relaciones
+              Se llama violencia sexual cuándo se experimentan relaciones
               sexuales forzosas sin consentimiento de la persona o con su
               consentimiento debido a amenazas previas o violencia.
             </p>
             <p>
               Este tipo de violencia es muy complicado de detectar ya que se
-              normaliza el hecho de tener sexo con tu pareja (aún que a una de
-              las parte no quiera.)
+              normaliza el hecho de tener sexo con tu pareja (aunque a una de
+              las parte no quiera).
             </p>
             <p>
               <h4 className="title_example">Algunos ejemplos son:</h4>
               <ul className="list_article">
                 <li>
-                  Coación o amenazas por no tener sexo; Típica frase de "Si no
-                  me lo das tú, me lo tendrán que dar otras"
+                  Coacción o amenazas por no tener sexo: "Si no me lo das tú, me
+                  lo tendrán que dar otras".
                 </li>
                 <li>
                   Se hacen reproches o surgen enfados ante la negativa de tener
@@ -179,7 +179,7 @@ const TypesViolence = (props) => {
                   quiere seguir.
                 </li>
                 <li>
-                  Se realizan tocamientos, caricias o estimulación no deseada
+                  Se realizan tocamientos, caricias o estimulación no deseada.
                 </li>
                 <li>
                   Se amenaza con finalizar la relación si no se tienen
@@ -199,17 +199,17 @@ const TypesViolence = (props) => {
           </h3>
           <div className={`container_article ${props.collapsable6}`}>
             <p>
-              Esta es la mas visible y reconocida, se llama violencia fisica a
-              todo aquel acto en que se inflige daño fisico a la victima, a
-              traves de una agresión directa.
+              Esta es la más visible y reconocida, se llama violencia física a
+              todo aquel acto en que se inflige daño físico a la víctima, a
+              través de una agresión directa.
             </p>
-            <p>Dentro de este y en el peor de los casos la muerte</p>
+            <p>En el peor de los casos la muerte.</p>
             <p>
               <h4 className="title_example">Algunos ejemplos son:</h4>
               <ul className="list_article">
-                <li>Un bofetón en medio de una discursión.</li>
+                <li>Un bofetón en medio de una discusion.</li>
                 <li>Que te empujen/ zaranden.</li>
-                <li>Que te escupan en una discursión</li>
+                <li>Que te escupan en una discusion.</li>
               </ul>
             </p>
           </div>

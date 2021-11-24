@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Domestic from "./Domestic";
 import Letter from "./Letter";
 import Questions from "./Questions";
+import Footer from "./Footer";
 function App() {
   //Para los collapsables
   const [collapsable1, setCollapsable1] = useState("hidden");
@@ -89,6 +90,8 @@ function App() {
             />
             <Letter />
           </main>
+
+          <Footer />
         </Route>
         <Route path="/questions">
           <Questions />

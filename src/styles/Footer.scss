@@ -1,0 +1,42 @@
+@import "core/variables";
+@import "core/reset";
+.footer {
+  margin-top: 25px;
+  background-color: #a770b2;
+  border-top: solid 2px $color-title;
+  height: 10vh;
+  @media all and (min-width: 768px) {
+    height: 5vh;
+  }
+}
+.list_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: $font-text;
+
+  list-style: none;
+  margin-right: 10%;
+  @media all and (min-width: 768px) {
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 15%;
+  }
+}
+.li {
+  font-family: $font-text;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: $font-title;
+  @media all and (min-width: 768px) {
+    font-size: 16px;
+    align-items: center;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}

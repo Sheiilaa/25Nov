@@ -6,10 +6,11 @@ import iceberg from "../images/Iceberg.jpeg";
 const WhatIs = (props) => {
   return (
     <>
-      <article id="WhatIs">
-        <h2 className="title_article"> ¿Qué es la violencia de género?</h2>
+      <article name="whatIs">
         <div className="container_violence">
           <div className="container_article">
+            <h2 className="title_article"> ¿Qué es la violencia de género?</h2>
+
             <p>
               La violencia de género ha sido y sigue siendo una de las
               manifestaciones más claras de la desigualdad, subordinación y de
@@ -26,7 +27,9 @@ const WhatIs = (props) => {
               produzca.
             </p>
           </div>
-          <img src={iceberg} alt="iceberg" className="img_iceberg" />
+          <div className="iceberg">
+            <img src={iceberg} alt="iceberg" className="img_iceberg" />
+          </div>
         </div>
       </article>
       <TypesViolence
