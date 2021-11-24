@@ -1,6 +1,6 @@
 import "../styles/Header.scss";
 import Questions from "./Questions";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -20,14 +20,16 @@ const Header = () => {
           <Link smooth={true} to="letter" className="list">
             NO ESTÁS SOLA
           </Link>
-          <a href="/#/questions" className="list">
+          <a href="/#/questions" className="list" target="_blank">
             POR SI LO NECESITAS
           </a>
         </nav>
       </header>
-      <Route path="/questions">
-        <Questions />
-      </Route>
+      <Switch>
+        <Route path="/questions">
+          <Questions />
+        </Route>
+      </Switch>
     </>
   );
 };
