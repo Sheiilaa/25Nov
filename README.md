@@ -1,4 +1,4 @@
-# No estas sola
+# No estas sola ♀️
 
 Con motivo del **25 de noviembre (día de la violencia de género)** he querido realizar esta pequeña página web, con ella espero poder ayudar a mucha gente a salir de ese infierno, y sobretodo que puedan ver que **no están solas**.
 
@@ -10,4 +10,4 @@ A continuación me abró en canal para todos vosotras, y os escribo una carta es
 
 Y para finalizar os dejo una pequeña parte por si alguna necesita hablar en cualquier momento pueda escribir un mensaje, ya sea anónimo o no.
 
-Espero de todo corazón poder ayudar a mucha gente.
+Espero de todo corazón poder ayudar a mucha gente 💜.
